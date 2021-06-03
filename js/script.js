@@ -3,15 +3,16 @@
 //4. scrivi anche la posizione “umana” (partendo da 1) 
 //della lista in cui il nuovo utente si trovaS
 
-//1. chiedi all’utente il cognome
 
 
-//2. inseriscilo in un array dove sono presenti già altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
+
+// inseriscilo in un array dove sono presenti già altri cognomi: ‘Bianchi’, ‘Neri’, ‘Rossi’, ‘Verdi’, ‘Gialli’
 var listSurname = ["Bianchi", "Neri", "Rossi", "Verdi", "Gialli"];
 
+// chiedi all’utente il cognome e va pushato dentro l'array!
 listSurname.push(prompt("inserisci il tuo cognome! "));
 
-// serve per ordinare i cognomi in oridine alfabetico!
+// serve per ordinare i cognomi in ordine alfabetico!
 listSurname.sort();
 
 
